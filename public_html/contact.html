@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <!-- Title -->
+  <title>PlayerManager - Contact</title>
+  <!-- Description, Keywords -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Makes organising footie a complete skoosh...">
+  <meta name="keywords" content="football soccer team game management organise organize">
+  <meta name="author" content="Gerry McLarnon">
+  
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+
+  <!-- Stylesheets -->
+  <link href="style/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style/font-awesome.min.css">
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="style/font-awesome-ie7.css">
+  <![endif]-->		
+  <link href="style/style.css" rel="stylesheet">
+<!-- Color Stylesheet - orange, blue, pink, brown, red or green-->
+  <link href="style/blue-green.css" rel="stylesheet">    
+  <link href="style/bootstrap-responsive.min.css" rel="stylesheet">
+  
+  <!-- HTML5 Support for IE -->
+  <!--[if lt IE 9]>
+  <script src="js/html5shim.js"></script>
+  <![endif]-->
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/favicon/favicon.png">
+
+<script>
+var RecaptchaOptions = {
+   theme: 'custom',
+   lang: 'en',
+   custom_theme_widget: 'recaptcha_widget'
+};
+</script>
+</head>
+<body>
+<!-- Navigation Starts -->
+
+<!-- Note down the syntax before editing. It is the default twitter bootstrap navigation -->
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            Menu
+          </a>
+          <a class="brand" href="./"><i class="icon-briefcase"></i>      PlayerManager</a>
+          <div class="nav-collapse collapse">
+            <!-- Navigation links starts here -->
+            <ul class="nav pull-right">
+              <!-- Main menu -->
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="login.html">Sign In</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+<!-- Navigation Ends -->   
+
+<!-- Content strats -->
+
+<div class="content">
+   <div class="container">
+      <div class="row">
+         <div class="span12">
+            
+            <!-- Contact starts -->
+            
+            <div class="contact">
+               <div class="row">
+                  <div class="span12">
+                  
+                     <!-- Contact hero -->
+                     <div class="hero">
+                        <!-- Title. Don't forget the <span> tag -->
+                        <h3><span>Contact</span></h3>
+                        <!-- para -->
+                        <p>Feel free to get in contact with any feature requests, etc. Especially welcome are any donations for (ahem) research and development...</p>
+                     </div>
+                     <!-- Contact -->
+                     
+                     <div class="contact">
+                        <div class="row">
+                           <div class="span12">
+                              
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="span6">
+                              <div class="cwell">
+                                 <!-- Contact form -->
+                                    <h5>Contact Form</h5>
+                                    <hr />
+
+                        <div id="kform">
+				<form class="form-horizontal" name="kform">
+                                    <input type="hidden" name="id" value="160338" />
+                                            <!-- Name -->
+                                          <div class="control-group">
+                                            <label class="control-label" for="name">Name</label>
+                                            <div class="controls">
+                                                <input type="text" class="input-medium" id="name" name="name">
+                                            </div>
+                                          </div>
+                                          
+                                          <!-- Email -->
+                                          <div class="control-group">
+                                            <label class="control-label" for="email">Email</label>
+                                            <div class="controls">
+                                                <input type="text" class="input-medium" id="email" name="email">
+                                            </div>
+                                          </div>
+                                          
+                                          <!-- Subject -->
+                                          <div class="control-group">
+                                            <label class="control-label" for="subject">Subject</label>
+                                            <div class="controls">
+                                              <input type="text" class="input-medium" id="subject" name="subject">
+                                            </div>
+                                          </div>
+                                          
+                                          <!-- Comment -->
+                                          <div class="control-group">
+                                            <label class="control-label" for="comment">Comment</label>
+                                            <div class="controls">
+                                                <textarea class="input-madium" id="comment" rows="3" name="message"></textarea>
+                                            </div>
+                                          </div>
+                        
+			<!--<p><script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LdVSccSAAAAAA2-zND1kv2wt0jAi3wIRwx76iDW"></script>
+
+                        <noscript>
+                                <iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdVSccSAAAAAA2-zND1kv2wt0jAi3wIRwx76iDW" height="300" width="500" frameborder="0"></iframe><br/>
+                                <textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+                                <input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
+                        </noscript></p>-->
+			<div class="control-group">
+				<div id="recaptcha_widget" style="display:none" class="controls">
+					<div id="recaptcha_image"></div> 
+					<div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect please try again</div> 
+					 
+					<label class="recaptcha_only_if_image">Enter the words above:</label> 
+					<label class="recaptcha_only_if_audio">Enter the numbers you hear:</label> 
+					 
+					<input type="text" id="recaptcha_response_field" name="recaptcha_response_field" class="span-6" />  <a href="javascript:Recaptcha.showhelp()">?</a>
+					 
+					<div class="clear">
+						<small>
+							<span class="recaptcha_only_if_image">See</span>
+							<span class="recaptcha_only_if_audio">Listen to</span>
+							<a href="javascript:Recaptcha.reload()">different words</a> or 
+							<span class="recaptcha_only_if_image"><a href="javascript:Recaptcha.switch_type('audio')">listen to the words</a></span>
+							<span class="recaptcha_only_if_audio"><a href="javascript:Recaptcha.switch_type('image')">see the words</a></span>
+						</small>
+					</div>
+
+                                        <div id="response">
+
+                                        </div>
+
+                                </div>
+                        
+				<script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LdVSccSAAAAAA2-zND1kv2wt0jAi3wIRwx76iDW"></script>
+
+                                <noscript>
+                                        <iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdVSccSAAAAAA2-zND1kv2wt0jAi3wIRwx76iDW" height="300" width="500" frameborder="0"></iframe><br/>
+                                        <textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+                                        <input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
+                                </noscript>			
+                        </div>
+
+                        <div class="form-actions">
+                            <button name="send" class="btn btn-success btn-large">Send</button>
+			</div>
+		</form>
+	</div>
+                                    
+                                    
+                                    <hr />
+                                    
+                                       <div class="csoci">  
+                                           <!-- Social media icons -->
+                                           <strong>Get in touch:</strong>
+                                           <div class="social">
+                                                <a href="http://www.gerrymclarnon.com"><i class="icon-facebook"></i></a>
+                                                <a href="http://twitter.com/player_manager"><i class="icon-twitter"></i></a>
+                                                <a href="http://www.linkedin.com/in/gerrymclarnon"><i class="icon-linkedin"></i></a>
+                                           </div>
+                                       </div>
+                                 </div>
+                           </div>
+                           <div class="span6">
+                                 <div class="cwell">
+                              <!-- Google maps -->
+                              <div class="gmap">
+                                 <iframe height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Glasgow+G13+1QG&amp;aq=0&amp;oq=g13+1qg&amp;sll=55.85546,-4.232459&amp;sspn=0.312178,0.598068&amp;ie=UTF8&amp;hq=&amp;hnear=Glasgow+G13+1QG,+United+Kingdom&amp;t=m&amp;z=14&amp;iwloc=A&amp;ll=55.884097,-4.329254&amp;output=embed"></iframe><br /><small><a href="https://maps.google.co.uk/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Glasgow+G13+1QG&amp;aq=0&amp;oq=g13+1qg&amp;sll=55.85546,-4.232459&amp;sspn=0.312178,0.598068&amp;ie=UTF8&amp;hq=&amp;hnear=Glasgow+G13+1QG,+United+Kingdom&amp;t=m&amp;z=14&amp;iwloc=A&amp;ll=55.884097,-4.329254" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+                              </div>
+                              
+                                    <!-- Address section -->
+                                       <h5>Address</h5>
+                                       <hr />
+                                       <div class="address">
+                                           <address>
+                                              <!-- Company name -->
+                                              <strong>PlayerManager.net</strong><br>
+                                              <!-- Address -->
+                                              14 Selborne Road<br>
+                                              Glasgow G13 1QG<br>
+                                              Scotland<br>
+                                              <!-- Phone number -->
+                                              p: +44 (0)141 416 0189<br>
+                                              <!-- Email -->
+                                              e:<a href="mailto:admin@playermanager.net"> admin@playermanager.net</a>
+                                           </address>
+                                       </div>
+                                 </div>
+                           </div>
+                        </div>
+                        
+                     </div>
+                     
+                  </div>
+               </div>
+            </div>
+            
+            
+            <!-- Service ends -->
+            
+         </div>
+      </div>
+   </div>
+</div>   
+
+<!-- Content ends --> 
+	
+<!-- Footer -->
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p>Designed and built with 110% commitment by <a href="http://twitter.com/player_manager" target="_blank">@player_manager</a>.</p>
+        <p><a href="http://twitter.github.com/bootstrap/index.html">Twitter Bootstrap</a> designed and built with all the love in the world by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
+        <p><a href="http://fortawesome.github.com/Font-Awesome/">Font Awesome</a> designed and built with total awesomeness by Dave Gandy <a href="http://twitter.com/fontaweso_me" target="_blank">@FortAweso_me</a>.</p>
+    </div>
+</footer>		
+                                    
+<!-- JS -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+        $(function() {
+                $("button[name=send]").click(function() {
+                        // validate and process form here
+                        var id = $('input[name=id]').val();
+                        var name = $('input[name=name]').val();
+                        var email = $('input[name=email]').val();
+                        var subject = $('input[name=subject]').val();
+                        var message = $('textarea[name=message]').val();
+                        var recaptcha_challenge_field = $('input[name=recaptcha_challenge_field]').val();
+                        var recaptcha_response_field = $('input[name=recaptcha_response_field]').val();
+			
+                        var dataString = 'id='+ id + '&name=' + name + '&email=' + email + '&subject=' + subject + '&message=' + message + '&recaptcha_challenge_field=' + recaptcha_challenge_field + '&recaptcha_response_field=' + recaptcha_response_field;
+
+                        if (name.length == 0 || 
+                            email.length == 0 ||
+                            subject.length == 0 ||
+                            message.length == 0 ||
+                            recaptcha_response_field.length == 0) {
+                            $('#response').html('<div class="alert alert-error"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Oops!</strong> All fields are required.</div>');
+                            return false;
+                        }
+
+                        $('#response').html("Sending...");
+			
+                        $.ajax({
+                                type: "POST",
+                                url: "http://kontactr.com/xuser/process",
+                                data: dataString,
+                                dataType: "text",
+                                success: function(html) {
+                                                if(html == "1")
+                                                {
+                                                        $('#response').html('<div class="alert alert-error"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Oops!</strong> All fields are required.</div>');
+                                                        $('input[value=]').first().focus();
+                                                }
+                                                else if(html == "2")
+                                                {
+                                                        $('#response').html('<div class="alert alert-error"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Oops!</strong> Invalid email address.</div>');
+                                                        $('input[name=email]').focus();
+                                                }
+                                                else if(html == "3")
+                                                {
+                                                        $('#response').html('<div class="alert alert-error"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Oops!</strong> Incorrect code entered.</div>');
+                                                        $('input[name=recaptcha_response_field]').focus();
+                                                }
+                                                else// if(html == "Success")
+                                                {
+                                                        $('#response').html('<div class="alert"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Thanks!</strong> Message sent successfully.</div>');
+                                                }
+                                            },
+                                error: function(html) {
+                                                /* 
+                                                 * TODO - replace after playermanager recaptcha enabled Contact WebService 
+                                                 * has been implemented with real error handling 
+                                                 * 
+                                                 */
+                                                $('#response').html('<div class="alert"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Thanks!</strong> Message sent successfully.</div>');
+                                            }
+                        });
+			
+                        return false;
+                });
+        });
+</script>
+
+</body>
+</html>
